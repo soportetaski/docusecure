@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^docusecure.com.ec [NC]
+RewriteRule ^(.*)$ https://www.docusecure.com.ec/$1 [L,R=301,NC]
